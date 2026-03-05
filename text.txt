@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food & Fashion 100</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(120deg,#ff6ec4,#7873f5,#42e695,#ff9966);
+    background-size: 400% 400%;
+    animation: gradient 12s ease infinite;
+    color:white;
+}
+
+@keyframes gradient{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+header{
+text-align:center;
+padding:80px 20px;
+}
+
+header h1{
+font-size:48px;
+letter-spacing:2px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:22px;
+opacity:.9;
+}
+
+section{
+background:rgba(0,0,0,0.35);
+margin:30px;
+padding:30px;
+border-radius:15px;
+backdrop-filter: blur(6px);
+}
+
+h2{
+margin-top:0;
+font-size:28px;
+}
+
+a{
+color:#ffd700;
+text-decoration:none;
+font-weight:bold;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+footer{
+text-align:center;
+padding:20px;
+font-size:14px;
+opacity:.8;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Food & Fashion 100</h1>
+<p>Where Food Meets Style</p>
+</header>
+
+<section>
+<h2>About Me</h2>
+<p>
+I have been in the hospitality industry for about 15 years and specialize in many different types of cuisine. 
+My cooking blends creativity and culture including Asian cuisine, American comfort food, Mexican dishes, soul food, and more.
+</p>
+
+<p>
+My theme is Food & Fashion. I host pop-up events where I combine my passion for cooking with creative style. 
+At these events I showcase and sell handmade customized fashion including painted, bedazzled, and glittered jackets, tee shirts, 
+upcycled clothing, and chic accessories. Food & Fashion 100 is all about bringing people together through unique flavors, art, and fashion.
+</p>
+</section>
+
+<section>
+<h2>Contact</h2>
+<p>Email: <a href="mailto:foodandfashion100@gmail.com">foodandfashion100@gmail.com</a></p>
+</section>
+
+<section>
+<h2>Social Links</h2>
+<p>
+Instagram: 
+<a href="https://www.instagram.com/foodplusfashion100" target="_blank">
+Follow Food & Fashion 100 on Instagram
+</a>
+</p>
+</section>
+
+<footer>
+<p>© 2026 Food & Fashion 100</p>
+</footer>
+
+</body>
+</html>
